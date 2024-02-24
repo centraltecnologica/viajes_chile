@@ -1,18 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-.pizza-img {
-    width: 480px;
-    height: 350px;
-    
-}
-
-
-.carousel-indicators button {
+.carrusell-indicators button {
     width: 10px !important;
     height: 10px !important;
     border-radius: 50% !important;
@@ -20,9 +6,8 @@
 }
 
 
-
 footer{ 
-    font-family: "Lobster", sans-serif;
+    /* font-family: "Lobster", sans-serif; */
     font-weight: 400;
     font-size: 2rem;
     color: white;
@@ -32,10 +17,18 @@ footer{
     background-color: #0ad9f0;
 }
 
-
-.navbar {
+h1{
     color: white;
+    text-align: center;
+    text-transform: uppercase;
 }
+
+.color-fondo{
+    background-color: #000000;
+}
+/* .navbar {
+    color: white;
+} */
 
 
 /* #pizza-contenedor img, h1, h2, button {
@@ -68,26 +61,26 @@ h2, .card .card-body {
 
 
 /* Estilo para precio oferta de las tarjetas */
-h4, .card .card-title {
+/* h4, .card .card-title {
     font-family: 'Roboto Medium', sans-serif;
     font-weight: 500;
     color: #28A745;
-}
+} */
 
 /* Estilo para precio real de las tarjetas */
-h5, .card .card-title {
+/* h5, .card .card-title {
     font-family: 'Roboto Medium', sans-serif;
     font-weight: 300;
     color: #707070;
-}
+} */
 
-.texto-brand {
+/* .texto-brand {
     font-family: "Lobster", sans-serif;
     font-weight: 400;
     font-size: 3rem;
     font-style: normal;
     color: white;
-}
+} */
 
 #formulario {
     padding: 150px;
