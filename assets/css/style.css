@@ -88,8 +88,9 @@ h2, .card .card-body {
     color: white;
     justify-content: center;
     margin: auto;
-    text-align: center;
+    text-align: left;
 }
+
 
 /* #newsletter .wrapper {
     justify-content: center;

@@ -6,6 +6,7 @@
             <title>Prueba - Viajes Chile</title>
         
             <!-- Bootstrap CSS -->
+            <!-- Version utilizadas 5.3 a Feb 2024 -->
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
         
@@ -114,40 +115,47 @@
 
 
     <!-- SECCION 3 - QUIENES SOMOS -->
-    <section class="color-fondo">
-            <div class="container">
-                <div class="row">
-                    <h1>¿Quienes Somos?</h1>
-                    <div class="col-12 col-md-6 col-xl-4">
-                        <div class="card">
-                            <img src="./assets/img/card1.jpg" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <p>Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
-                            </div>
+    <section style="background-color: black">
+        <div class="container">
+            <div class="row">
+
+                <h1>¿Quienes Somos?</h1>
+                <hr>
+                
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="card">
+                        <i class="fa-solid fa-plane" style="background-color: aqua;"></i>
+                        <div class="card-body">
+                            <p>Mus enim elementum dignissim class eleifend justo, ut nunc magnis est 
+                                vulputate nostra, blandit erat luctus faucibus orci.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. At consequuntur neque unde, dolore eum repellat officiis ad corrupti exercitationem sint nihil sunt, voluptates, a expedita. Praesentium placeat officiis quo iste.</p>
                         </div>
                     </div>
-
-                    <div class="col-12 col-md-6 col-xl-4">
-                        <div class="card">
-                            <img src="./assets/img/card2.jpg" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <p>Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-md-6 col-xl-4">
-                        <div class="card">
-                            <img src="./assets/img/card3.jpg" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <p>Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
-            </div>      <!--FIN CONTAINER -->
-    </section>
+                
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="card">
+                       
+                        <div class="card-body">
+                            <p>Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, cum? Recusandae, animi ipsum! Nostrum illum a voluptatum ipsum sed expedita, alias porro enim. Suscipit, voluptas fugiat optio laudantium accusamus sed.</p>
+                        </div>
+                        <i class="fa-solid fa-mountain-sun" style="background-color: aqua;"></i>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="card">
+                        <i class="fa-solid fa-route" style="background-color: aqua;"></i>
+                        <div class="card-body">
+                            <p>Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam fugit eaque facere repellendus deleniti modi necessitatibus, harum at delectus. Iste adipisci voluptate sit dolores ullam fuga accusamus quidem nam?</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+        </section><!--FIN CONTAINER -->
 
     <!-- SECCION 4 - DESTACADAS EN CARDS-->
     <section class="color-fondo">
@@ -200,6 +208,7 @@
             <div class="row">
                 <div class="col justify-content-start">
                     <h1>CONTACTO</h1>
+                    <hr>
                     <form>
                         <div class="mb-3">
                         <label for="nombre" class="form-label">Nombre</label>
@@ -228,12 +237,17 @@
 
     <!-- SECCION 6 - FOOTER -->
     <footer>
-        <div class="d-inline-flex p-2">
-            <p>Viajes Chile</p>
-            <i class="fa-brands fa-square-github"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-square-x-twitter"></i>
-            <i class="fa-brands fa-square-facebook"></i>
+        <div class="row">
+            <div class="col">
+                <p>Viajes Chile</p>
+            </div>
+
+            <div class="col">
+                <i class="fa-brands fa-square-github"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-square-x-twitter"></i>
+                <i class="fa-brands fa-square-facebook"></i>       
+            </div>
         </div>
     </footer>
 
